@@ -26,10 +26,43 @@ nav.navbar {
 
 .nav-item {
   font-size: 10px;
-
-
 }
 
+img {
+  float: left;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.profile_text {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #777777; 
+  line-height: 25px;
+  margin-left: 15px;
+}
+
+.navbar-toggler-icon {
+color: black;
+}
+
+.navbar-nav .nav-link {
+  font-size: 15px;
+}
+
+a.navbar-brand {
+  text-align: center;
+}
+
+li.footertext {
+  text-align: center;
+}
+
+.card-img-top {
+  width: 80%
+}
+.card-deck {
+  bottom-margin: 10px;
+}
 
 
 /* end sticky footer styling */
@@ -52,13 +85,19 @@ input[type=submit]:hover {
 
 .jumbotron {
  background-color: white !important; 
- margin-top: 35px !important; 
- padding: 150px 200px !important; 
+ min-width: 585px;
+ margin-top: 20px;
+ margin-bottom: 20px;
 }
 
-h1,
-h2,
-h3,
+.aboutme {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 700;
+    color: #4aaaa5;
+    font-size: 30px;
+}
+   
+
 p {
   margin-bottom: 20px;
 }
@@ -67,27 +106,7 @@ p:last-child {
   margin-bottom: 0;
 }
 
-h1,
-h2,
-h3 {
-  font-family: Georgia, Times, "Times New Roman", serif;
-  font-weight: 700;
-  color: #4aaaa5;
-}
 
-h1 {
-  padding-bottom: 20px;
-  font-size: 30px;
-  line-height: 49px;
-  border-bottom: 3px solid #ddd;
-}
-
-h2,
-h3 {
-  font-size: 22px;
-}
-
-/* header */
 
 
 /* footer */
